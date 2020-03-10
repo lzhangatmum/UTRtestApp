@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+<!--    <com.example.github.utrtestapp.widget.DisInterceptNestedScrollView-->
+<!--        android:id="@+id/scroll"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@android:color/white"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <com.example.github.utrtestapp.widget.CommonTabLayout-->
+<!--                android:id="@+id/uc_tablayout"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="54dp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:background="@android:color/white"-->
+<!--                android:paddingBottom="8dp"-->
+<!--                app:tl_subtextSelectColor="#fc4f74"-->
+<!--                app:tl_subtextUnselectColor="#333333"-->
+<!--                app:tl_subtextsize="11sp"-->
+<!--                app:tl_textSelectColor="#fc4f74"-->
+<!--                app:tl_textUnselectColor="#333333"-->
+<!--                app:tl_textsize="16sp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:background="@color/colorf5f5f5" />-->
+<!--        </LinearLayout>-->
+<!--    </com.example.github.utrtestapp.widget.DisInterceptNestedScrollView>-->
+
+<!--    <com.example.github.utrtestapp.widget.NoScrollViewPager-->
+<!--        android:id="@+id/uc_viewpager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@color/colorf5f5f5" />-->
+<!--</LinearLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <com.example.github.utrtestapp.widget.DisInterceptNestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <com.example.github.utrtestapp.widget.CommonTabLayout
+                android:id="@+id/uc_tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_centerVertical="true"
+                android:background="@android:color/white"
+                android:paddingBottom="8dp"
+
+
+                app:tl_subtextSelectColor="#fc4f74"
+                app:tl_subtextUnselectColor="#333333"
+                app:tl_subtextsize="11sp"
+                app:tl_textSelectColor="#fc4f74"
+                app:tl_textUnselectColor="#333333"
+                app:tl_textsize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorf5f5f5" />
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/tag_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </LinearLayout>
+    </com.example.github.utrtestapp.widget.DisInterceptNestedScrollView>
+
+    <com.example.github.utrtestapp.widget.NoScrollViewPager
+        android:id="@+id/uc_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorf5f5f5" />
+</LinearLayout>

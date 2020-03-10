@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UTRtestApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sign_up">SIGN_UP</string>
+    <string name="sign_in">SIGN_IN</string>
+    <string name="facebook">CONTINUE WITH FACEBOOK</string>
+    <string name="check1">8 characters</string>
+    <string name="check2">Uppercase</string>
+    <string name="check3">Number</string>
+    <string name="agree">By continuing, I certify that I am at lest 13 years old and agree to the <font color='#00BAB6'>terms of service</font></string>
+    <string name="already">Akready have an anccount?<font color='#00BAB6'>Sign In</font></string>
+
+
+
+    <string name="appbar_overscroll_behavior">com.example.github.utrtestapp.view.AppBarLayoutOverScrollViewBehavior</string>
+</resources>
